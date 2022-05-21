@@ -1,0 +1,18 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬Àş¬ıÿÿÿÿ8¬²Ô¼0
+[
+java:S1155 ">Use isEmpty() to check whether the collection is empty or not.(•ñ¥À8Ú³Ô¼0
+o	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ€€‚ıÿÿÿÿ8ä³Ô¼0
+Q
+java:S11727"/Remove this unused method parameter "username".(Æ€€‚ıÿÿÿÿ8å³Ô¼0
+o	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾à»ùÿÿÿÿ8æ³Ô¼0
+T
+java:S3400M"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ
+Q
+java:S1172L"/Remove this unused method parameter "username".(¾à»ùÿÿÿÿ8ç³Ô¼0
+b
+java:S1128"ERemove this unused import 'com.silvera.SciPaperService.domain.model'.(‰Ë«8è³Ô¼0
+F
+java:S1128")Remove this unused import 'java.net.URI'.(Ö¦¨°8è³Ô¼0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8è³Ô¼0

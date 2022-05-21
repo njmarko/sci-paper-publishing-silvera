@@ -10,10 +10,6 @@ service UserService{
 			@required str password
 		]
 
-		typedef AuthResponse[
-			@id str username
-			str jwt
-		]
 
 		typedef User[
 			@id str username
@@ -21,19 +17,20 @@ service UserService{
 			@required str firstName
 			@required str lastName
 			str email
+			bool loggedIn
 		]
 
 		@rest(method=POST)
-		AuthResponse authenticate(AuthRequest authRequest)
+		str authenticate(AuthRequest authRequest)
 
 		@rest(method=POST)
 		str register(User user)
 
 		@rest(method=GET)
-		bool isLoggedIn(str jwt)
+		bool isLoggedIn(str username)
 
 		@rest(method=GET)
-		str getName(str jwt)
+		str getName(str username)
 
 
 	}

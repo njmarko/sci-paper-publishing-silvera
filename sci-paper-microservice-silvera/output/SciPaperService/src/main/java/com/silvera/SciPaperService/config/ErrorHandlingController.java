@@ -13,6 +13,6 @@ public class ErrorHandlingController {
 
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<String> handleBusinessException(HttpServletRequest request, IllegalArgumentException ex) {
-        return new ResponseEntity<>("Bad request when trying to access " + request.getRequestURI(), HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>("Bad request when trying to access " + request.getRequestURI() + " message: "+ ex.getMessage(), HttpStatus.BAD_REQUEST);
     }
 }

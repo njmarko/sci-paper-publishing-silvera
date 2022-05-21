@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø’åäùÿÿÿÿ8Şéˆ½0
+g
+java:S4488'"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÎáÉÈ8êˆ½0
+S
+java:S1128
+"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8äº¯½0
+s
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.PathVariable'.(¹ûñÅşÿÿÿÿ8óº¯½0
+^
+java:S1128"ARemove this unused import 'com.silvera.SciPaperService.messages'.(ª“Ù§8‚»¯½0
+l
+java:S1128"ORemove this unused import 'org.springframework.kafka.annotation.KafkaListener'.(ıª«¬8’»¯½0
+k
+java:S1128"IRemove this unused import 'org.springframework.kafka.core.KafkaTemplate'.(˜€›‹üÿÿÿÿ8¡»¯½0

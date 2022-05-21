@@ -10,7 +10,7 @@ service SciPaperService{
 			str content
 		]
 
-		@crud
+		@create
 		typedef SciPaper[
 			str author
 			str title
@@ -27,6 +27,9 @@ service SciPaperService{
 		@rest(method=POST)
 		@producer(PaperMsgGroup.PublishPaper -> Broker.PUBLISH_PAPPER)
 		bool publish(PublishPaperInfo publishPaperInfo)
+
+		@rest(method=GET, mapping="/all")
+		list<SciPaper> showAllPapers()
 
 	}
 }

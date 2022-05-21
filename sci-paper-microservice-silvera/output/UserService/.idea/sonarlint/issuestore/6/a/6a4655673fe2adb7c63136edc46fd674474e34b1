@@ -1,0 +1,9 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥¼Ä©ûÿÿÿÿ8ÏËó½Ž0
+S
+java:S1128
+"1Remove this unused import 'java.util.Collection'.(¹ÉÐšùÿÿÿÿ8»þÀ¾Ž0
+t
+java:S1128"RRemove this unused import 'org.springframework.web.bind.annotation.RequestMethod'.(Ê™Ðÿûÿÿÿÿ8¼þÀ¾Ž0
+U
+java:S1128"3Remove this unused import 'javax.validation.Valid'.(æ¤ñ÷úÿÿÿÿ8¼þÀ¾Ž0
