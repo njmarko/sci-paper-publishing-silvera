@@ -44,8 +44,6 @@ public class SciPaperServiceService implements ISciPaperServiceService {
     public SciPaper createSciPaper(SciPaper scipaper){
         scipaperRepository.save(scipaper);
 
-        
-
         Optional<SciPaper> opt = scipaperRepository.findById(scipaper.getId());
         return opt.orElse(null);
     }
@@ -89,15 +87,18 @@ public class SciPaperServiceService implements ISciPaperServiceService {
             TODO: Implement this function!!!
         */
         // Uncomment to publish the message
-        //com.silvera.SciPaperService.messages.papermsggroup.PublishPaper msg = new com.silvera.SciPaperService.messages.papermsggroup.PublishPaper();
+        com.silvera.SciPaperService.messages.papermsggroup.PublishPaper msg = new com.silvera.SciPaperService.messages.papermsggroup.PublishPaper();
         // Here set values to the message attributes:
         // ------------------------------------------
 
+        msg.setId(publishPaperInfo.getId());
+        Optional<SciPaper> opt = scipaperRepository.findById(publishPaperInfo.getId());
+        SciPaper entity = opt.orElseThrow(IllegalArgumentException::new);
+        msg.setTitle(entity.getTitle());
+        msg.setAuthor(entity.getAuthor());
         // ------------------------------------------
-        //papermsggroupPublishPaperKafkaTemplate.send("PUBLISH_PAPPER", msg);
-        
-
-        throw new java.lang.UnsupportedOperationException("Not implemented yet.");
+        papermsggroupPublishPaperKafkaTemplate.send("PUBLISH_PAPPER", msg);
+        return true;
     }
     
 
