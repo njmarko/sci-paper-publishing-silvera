@@ -1,0 +1,40 @@
+import "setup.si"
+
+service UserService{
+	service_registry=ServiceRegistry
+
+	api {
+
+		typedef AuthRequest[
+			@required str username
+			@required str password
+		]
+
+		typedef AuthResponse[
+			@id str username
+			str jwt
+		]
+
+		typedef User[
+			@id str username
+			@required str password
+			@required str firstName
+			@required str lastName
+			str email
+		]
+
+		@rest(method=POST)
+		AuthResponse authenticate(AuthRequest authRequest)
+
+		@rest(method=POST)
+		str register(User user)
+
+		@rest(method=GET)
+		bool isLoggedIn(str jwt)
+
+		@rest(method=GET)
+		str getName(str jwt)
+
+
+	}
+}

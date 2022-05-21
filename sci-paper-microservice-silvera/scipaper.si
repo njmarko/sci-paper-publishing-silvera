@@ -1,0 +1,23 @@
+import "setup.si"
+
+service SciPaperService{
+	service_registry=ServiceRegistry
+
+
+	api {
+		typedef Section[
+			str name
+			str content
+		]
+
+		typedef SciPaper[
+			str author
+			str title
+			list<Section> sections
+		]
+
+		@rest(method=POST)
+		bool publish()
+
+	}
+}

@@ -1,0 +1,19 @@
+import "setup.si"
+
+
+service LibraryService {
+	service_registry=ServiceRegistry
+
+
+	api {
+
+		typedef PublishedPaper[
+			@id str id
+			str title
+			str author
+		]
+
+		@rest(method=GET)
+		list<PublishedPaper> listAllPapers()
+	}
+}
