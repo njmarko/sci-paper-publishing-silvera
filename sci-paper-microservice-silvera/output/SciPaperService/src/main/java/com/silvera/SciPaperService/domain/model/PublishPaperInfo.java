@@ -5,23 +5,31 @@
     Date: 2022-05-21 16:42:57
 */
 
-package com.silvera.UserService.domain.model;
+package com.silvera.SciPaperService.domain.model;
 
 import org.springframework.data.annotation.Id;
 import javax.validation.constraints.*;
-public class AuthResponse {
+public class PublishPaperInfo {
 
     
     
     
     @Id
     
-    @NotBlank(message="Field 'username' cannot be empty!")
-    private java.lang.String username;
+    @NotBlank(message="Field 'id' cannot be empty!")
+    private java.lang.String id;
     
-    private java.lang.String jwt;
+    private java.lang.String username;
 
 
+    
+    public java.lang.String getId() {
+        return this.id;
+    }
+
+    public void setId(java.lang.String id) {
+        this.id = id;
+    }
     
     public java.lang.String getUsername() {
         return this.username;
@@ -31,18 +39,7 @@ public class AuthResponse {
         this.username = username;
     }
     
-    public java.lang.String getJwt() {
-        return this.jwt;
-    }
-
-    public void setJwt(java.lang.String jwt) {
-        this.jwt = jwt;
-    }
-    
 
     
-    public java.lang.String getId(){
-        return this.username;
-    }
-    
+
 }

@@ -8,14 +8,11 @@
 
 package com.silvera.LibraryService.service.impl;
 
-import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.silvera.LibraryService.domain.model.*;
 import com.silvera.LibraryService.service.base.*;
 import com.silvera.LibraryService.repository.*;
-import com.silvera.LibraryService.messages.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.kafka.core.KafkaTemplate;
 
 
 @Service
@@ -23,9 +20,13 @@ public class LibraryServiceService implements ILibraryServiceService {
 
     
 
-    
+    private final PublishedPaperRepository publishedPaperRepository;
 
-    
+    @Autowired
+    public LibraryServiceService(PublishedPaperRepository publishedPaperRepository) {
+        this.publishedPaperRepository = publishedPaperRepository;
+    }
+
 
     // Auto-generated CRUD methods
     
@@ -39,7 +40,7 @@ public class LibraryServiceService implements ILibraryServiceService {
         */
         
 
-        throw new java.lang.UnsupportedOperationException("Not implemented yet.");
+        return publishedPaperRepository.findAll();
     }
     
 
@@ -47,13 +48,13 @@ public class LibraryServiceService implements ILibraryServiceService {
     
     @Override
     public void publishPaper(com.silvera.LibraryService.messages.papermsggroup.PublishPaper message){
-        /*
-            TODO: Implement this function!!!
-        */
 
-        System.out.println(message.getTitle());
+        PublishedPaper paper = new PublishedPaper();
+        paper.setId(message.getId());
+        paper.setAuthor(message.getAuthor());
+        paper.setTitle(message.getTitle());
 
-
+        publishedPaperRepository.save(paper);
     }
     
     

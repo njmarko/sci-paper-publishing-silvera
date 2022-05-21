@@ -1,4 +1,5 @@
 import "setup.si"
+import "user.si"
 
 service SciPaperService{
 	service_registry=ServiceRegistry
@@ -16,12 +17,21 @@ service SciPaperService{
 			list<Section> sections
 		]
 
+
+		typedef PublishPaperInfo[
+			@id str id
+			str username
+		]
+
+
 		@rest(method=POST)
 		@producer(PaperMsgGroup.PublishPaper -> Broker.PUBLISH_PAPPER)
-		SciPaper createPaper(SciPaper sciPaper)
-
-		@rest(method=POST)
-		bool publish(str id, str username)
+		bool publish(PublishPaperInfo publishPaperInfo)
 
 	}
+}
+
+dependency SciPaperService -> UserService{
+	isLoggedIn[fallback_static]
+	getName[fallback_static]
 }

@@ -7,11 +7,11 @@
 
 package com.silvera.SciPaperService.repository;
 
-import com.silvera.SciPaperService.domain.model.Section;
+import com.silvera.SciPaperService.domain.model.PublishPaperInfo;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 
-public interface SectionRepository extends MongoRepository<Section, java.lang.String> {
+public interface PublishPaperInfoRepository extends MongoRepository<PublishPaperInfo, java.lang.String> {
   // CRUD operations are included in MongoRepository interface
 
 }
