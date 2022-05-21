@@ -15,5 +15,12 @@ service LibraryService {
 
 		@rest(method=GET)
 		list<PublishedPaper> listAllPapers()
+
+
+		internal {
+
+			@consumer(PaperMsgGroup.PublishPaper <- Broker.PUBLISH_PAPPER)
+			void publishPaper()
+		}
 	}
 }

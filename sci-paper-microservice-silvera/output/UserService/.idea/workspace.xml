@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e87020ba-3a5a-4b32-a7c3-af5bd0aaf6eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../library.si" beforeDir="false" afterPath="$PROJECT_DIR$/../../library.si" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfigServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConfigServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfigServer/run.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../ConfigServer/run.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfigServer/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../ConfigServer/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfigServer/src/main/java/com/silvera/ConfigServer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConfigServer/src/main/java/com/silvera/ConfigServer/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfigServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ConfigServer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/openapi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/openapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/run.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/run.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/controller/LibraryServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/controller/LibraryServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/domain/model/PublishedPaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/domain/model/PublishedPaper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/repository/PublishedPaperRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/repository/PublishedPaperRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/service/base/ILibraryServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/service/base/ILibraryServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/service/impl/LibraryServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/src/main/java/com/silvera/LibraryService/service/impl/LibraryServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LibraryService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/openapi.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/openapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/run.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/run.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/controller/SciPaperServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/controller/SciPaperServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/domain/model/SciPaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/domain/model/SciPaper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/domain/model/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/domain/model/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/repository/SciPaperRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/repository/SciPaperRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/repository/SectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/repository/SectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/service/base/ISciPaperServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/service/base/ISciPaperServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/service/impl/SciPaperServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/java/com/silvera/SciPaperService/service/impl/SciPaperServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SciPaperService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SciPaperService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/run.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/run.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/src/main/java/com/silvera/ServiceRegistry/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/src/main/java/com/silvera/ServiceRegistry/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServiceRegistry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ServiceRegistry/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi.json" beforeDir="false" afterPath="$PROJECT_DIR$/openapi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/run.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/controller/UserServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/controller/UserServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/domain/model/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/domain/model/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/domain/model/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/domain/model/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/domain/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/domain/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/repository/AuthRequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/repository/AuthRequestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/repository/AuthResponseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/repository/AuthResponseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/service/base/IUserServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/silvera/UserService/service/impl/UserServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scipaper.si" beforeDir="false" afterPath="$PROJECT_DIR$/../../scipaper.si" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29TWFxtbgj2y8DQXZ4iDrF5AJ7h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="UserService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.silvera.UserService.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e87020ba-3a5a-4b32-a7c3-af5bd0aaf6eb" name="Changes" comment="" />
+      <created>1653137456462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653137456462</updated>
+      <workItem from="1653137458142" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

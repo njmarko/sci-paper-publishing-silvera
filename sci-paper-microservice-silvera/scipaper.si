@@ -3,13 +3,13 @@ import "setup.si"
 service SciPaperService{
 	service_registry=ServiceRegistry
 
-
 	api {
 		typedef Section[
 			str name
 			str content
 		]
 
+		@crud
 		typedef SciPaper[
 			str author
 			str title
@@ -17,7 +17,11 @@ service SciPaperService{
 		]
 
 		@rest(method=POST)
-		bool publish()
+		@producer(PaperMsgGroup.PublishPaper -> Broker.PUBLISH_PAPPER)
+		SciPaper createPaper(SciPaper sciPaper)
+
+		@rest(method=POST)
+		bool publish(str id, str username)
 
 	}
 }
