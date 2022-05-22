@@ -1,9 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û²Äìüÿÿÿÿ8áêˆ½Ž0
-`
-java:S1128
-"CRemove this unused import 'org.springframework.stereotype.Service'.(¼º¡Ú8ãêˆ½Ž0
-^
-java:S1128"ARemove this unused import 'com.silvera.SciPaperService.messages'.(ª“Ù§8äêˆ½Ž0
-u
-java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8åêˆ½Ž0

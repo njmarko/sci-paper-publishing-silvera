@@ -76,6 +76,9 @@ public class SciPaperServiceService implements ISciPaperServiceService {
         msg.setId(publishPaperInfo.getId());
         Optional<SciPaper> opt = scipaperRepository.findById(publishPaperInfo.getId());
         SciPaper entity = opt.orElseThrow(IllegalArgumentException::new);
+        if(!entity.getAuthor().equals(publishPaperInfo.getUsername())){
+            throw new IllegalArgumentException("You can only publish your own papers!");
+        }
         msg.setTitle(entity.getTitle());
         msg.setAuthor(name);
         // ------------------------------------------

@@ -1,7 +1,0 @@
-
-g
-java:S1192"LDefine a constant instead of duplicating this literal "/${segment}" 3 times.(ˆêÜËûÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚ØÜÄûÿÿÿÿ
-3
-java:S1128
-"Remove this duplicated import.(¬Ç­D
